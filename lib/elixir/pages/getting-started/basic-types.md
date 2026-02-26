@@ -203,25 +203,25 @@ Algumas outras linguagens chamam esses átomos de símbolos.
 Eles são frequentemente úteis para enumerar valores distintos, como:
 
 ```elixir
-iex> :maçã
-:maçã
-iex> :laranja
-:laranja
-iex> :melão
-:melão
+iex> :apple
+:apple
+iex> :orange
+:orange
+iex> :watermelon
+:watermelon
 ```
 
 Os átomos são iguais se seus nomes forem iguais.
 
 ```elixir
-iex> :maçã == :maçã
+iex> :apple == :apple
 true
-iex> :maçã == :laranja
+iex> :apple == :orange
 false
 ```
 
 Frequentemente, eles são usados para expressar o estado de uma operação,
-utilizando valores como `:ok` e `:erro`.
+utilizando valores como `:ok` e `:error`.
 
 Os valores booleanos `true` e `false` também são átomos:
 
@@ -254,16 +254,16 @@ iex> "hellö"
 Você pode concatenar duas strings com o operador [`<>`](`<>/2`):
 
 ```elixir
-iex> "olá " <> "mundo!"
-"olá mundo!"
+iex> "hello " <> "world!"
+"hello world!"
 ```
 
 O Elixir também suporta interpolação de strings:
 
 ```elixir
-iex> string = "mundo"
-iex> "olá #{string}!"
-"olá mundo!"
+iex> string = "world"
+iex> "hello #{string}!"
+"hello world!"
 ```
 
 A concatenação de strings exige que ambos os lados sejam strings, mas a
@@ -271,8 +271,8 @@ interpolação suporta qualquer tipo de dado que possa ser convertido em uma
 string:
 
 ```elixir
-iex> número = 42
-iex> "eu tenho #{número} anos!"
+iex> number = 42
+iex> "eu tenho #{number} anos!"
 "eu tenho 42 anos!"
 ```
 
@@ -280,20 +280,20 @@ As strings podem conter quebras de linha.
 Você pode introduzi-las usando sequências de escape:
 
 ```elixir
-iex> "olá
-...> mundo"
-"olá\nmundo"
-iex> "olá\nmundo"
-"olá\nmundo"
+iex> "hello
+...> world"
+"hello\nworld"
+iex> "hello\nworld"
+"hello\nworld"
 ```
 
 Você pode imprimir uma string usando a função [`IO.puts`](`IO.puts/1`) do módulo
 `IO`:
 
 ```elixir
-iex> IO.puts("olá\nmundo")
-olá
-mundo
+iex> IO.puts("hello\nworld")
+hello
+world
 :ok
 ```
 
