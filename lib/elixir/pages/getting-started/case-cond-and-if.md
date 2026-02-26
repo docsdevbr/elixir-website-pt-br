@@ -134,7 +134,7 @@ iex> if nil do
 
 Algumas linguagens de programação fazem distinção entre expressões (código que
 retorna um valor) e instruções (código que não retorna nenhum valor).
-Em Elixir, existem apenas expressões, não instruções.
+No Elixir, existem apenas expressões, não instruções.
 Tudo o que você escreve em Elixir retorna algum valor.
 
 Essa propriedade permite que as variáveis sejam delimitadas a blocos de código

@@ -50,7 +50,7 @@ iex> 10 / 2
 Observe que `10 / 2` retornou um número de ponto flutuante `5.0` em vez de um
 inteiro `5`.
 Isso é esperado.
-Em Elixir, o operador [`/`](`//2`) sempre retorna um número de ponto flutuante.
+No Elixir, o operador [`/`](`//2`) sempre retorna um número de ponto flutuante.
 Se você quiser realizar uma divisão inteira ou obter o resto da divisão, pode
 invocar as funções [`div`](`div/2`) e [`rem`](`rem/2`):
 
@@ -92,7 +92,7 @@ iex> 1.0e-10
 1.0e-10
 ```
 
-Em Elixir, os números de ponto flutuante têm precisão de 64 bits.
+No Elixir, os números de ponto flutuante têm precisão de 64 bits.
 
 Você pode invocar a função [`round`](`round/1`) para obter o inteiro mais próximo
 de um determinado número de ponto flutuante, ou a função [`trunc`](`trunc/1`)
@@ -239,7 +239,7 @@ O Elixir permite omitir os dois pontos (`:`) iniciais para os átomos `false`,
 
 ## Strings
 
-Em Elixir, as strings são delimitadas por aspas duplas e codificadas em UTF-8:
+No Elixir, as strings são delimitadas por aspas duplas e codificadas em UTF-8:
 
 ```elixir
 iex> "hellö"

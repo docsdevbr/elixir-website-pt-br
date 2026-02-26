@@ -200,7 +200,7 @@ iex> put_elem(tuple, 2, :e)
 Observe, no entanto, que os elementos em si não são copiados.
 Ao atualizar uma tupla, todas as entradas são compartilhadas entre a tupla
 antiga e a nova, exceto a entrada substituída.
-Essa regra se aplica à maioria das estruturas de dados em Elixir.
+Essa regra se aplica à maioria das estruturas de dados no Elixir.
 Isso reduz a quantidade de alocação de memória que a linguagem precisa realizar
 e só é possível graças à semântica imutável da linguagem.
 
