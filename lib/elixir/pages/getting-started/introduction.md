@@ -62,8 +62,8 @@ Erlang/OTP 26 [64-bit] [smp:2:2] [...]
 Interactive Elixir - press Ctrl+C to exit
 iex(1)> 40 + 2
 42
-iex(2)> "olá" <> " mundo"
-"olá mundo"
+iex(2)> "hello" <> " world"
+"hello world"
 ```
 
 Observe que alguns detalhes, como números de versão, podem variar um pouco na
