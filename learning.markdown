@@ -6,8 +6,8 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/elixir-lang/elixir/blob/-/LICENSE
 
-source_url: https://github.com/elixir-lang/elixir-lang.github.com/blob/main/install.markdown
-revision: 9d1fc67c74b62d910464cf56900b408a4ead6d78
+source_url: https://github.com/elixir-lang/elixir-lang.github.com/blob/main/learning.markdown
+revision: fee4f04dfe5cef76e7a4f2c3d6ad0fe70c5e198b
 status: ready
 
 title: "Recursos de aprendizagem"
