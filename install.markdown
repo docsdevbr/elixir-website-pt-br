@@ -44,7 +44,7 @@ escolha.
 
 ### macOS
 
-- Usando [scripts de instalação](#install-scripts)
+- Usando [scripts de instalação](#scripts-de-instalação)
 
 - Usando o [Homebrew](https://brew.sh/):
   - Run: `brew install elixir`
@@ -52,14 +52,14 @@ escolha.
 - Usando o [MacPorts](https://www.macports.org/):
   - Execute: `sudo port install elixir`
 
-- Usando [gerenciadores de versão](#version-managers)
+- Usando [gerenciadores de versão](#gerenciadores-de-versões)
 
 ### GNU/Linux
 
 Abaixo, listamos os passos para instalar o Elixir em diferentes distribuições.
 Se a sua distribuição não estiver listada ou se os passos abaixo não
 funcionarem, você pode considerar o uso de
-[gerenciadores de versão](#version-managers).
+[gerenciadores de versão](#gerenciadores-de-versões).
 
 #### Distribuições
 
@@ -81,8 +81,8 @@ funcionarem, você pode considerar o uso de
   - Execute: `guix package -i elixir`
 
 - **Ubuntu**
-  - Use [scripts de instalação](#install-scripts) (ou, alternativamente,
-    [gerenciadores de versão](#version-managers))
+  - Use [scripts de instalação](#scripts-de-instalação) (ou, alternativamente,
+    [gerenciadores de versão](#gerenciadores-de-versões))
   - Os pacotes no `apt` costumam estar várias versões atrasados.
     Você pode usar os [pacotes do RabbitMQ](https://launchpad.net/~rabbitmq)
     descritos abaixo, que provavelmente são mais recentes que o `apt`:
@@ -144,7 +144,7 @@ Erlang/OTP.
     Versões anteriores do Elixir estão disponíveis em nossa página de
     [Releases](https://github.com/elixir-lang/elixir/releases).
 
-- Usando [scripts de instalação](#install-scripts)
+- Usando [scripts de instalação](#scripts-de-instalação)
 
 - Usando o [Scoop](https://scoop.sh/):
   - Instale o Erlang: `scoop install erlang`
@@ -207,15 +207,15 @@ iex.bat
 ```
 
 Você pode querer
-[definir a variável de ambiente $PATH](#setting-path-environment-variable) para
-todo o seu sistema.
+[definir a variável de ambiente $PATH](#configurando-a-variável-de-ambiente-path)
+para todo o seu sistema.
 Use `install.sh --help` ou `install.bat --help` para saber mais sobre os
 argumentos e opções disponíveis.
 
 ## Pacote pré-compilado
 
 O Elixir fornece um pacote pré-compilado para cada versão.
-Primeiro, [instale o Erlang](/install.html#installing-erlang) e, em seguida,
+Primeiro, [instale o Erlang](#instalando-o-erlang) e, em seguida,
 baixe o pacote pré-compilado do Elixir apropriado abaixo.
 Você pode consultar sua versão do Erlang/OTP executando `erl -s halt`:
 
@@ -226,7 +226,7 @@ Você pode consultar sua versão do Erlang/OTP executando `erl -s halt`:
 Após baixar a versão, descompacte-a e você poderá executar os comandos `elixir`
 e `iex` a partir do diretório `bin`.
 No entanto, recomendamos que você
-[adicione o caminho do diretório `bin` do Elixir à sua variável de ambiente PATH](#setting-path-environment-variable)
+[adicione o caminho do diretório `bin` do Elixir à sua variável de ambiente PATH](#configurando-a-variável-de-ambiente-path)
 para facilitar o desenvolvimento.
 
 ### Espelhos e versões noturnas
@@ -235,25 +235,25 @@ Os links acima direcionam diretamente para a versão do GitHub.
 Também hospedamos e espelhamos pacotes pré-compilados e versões noturnas
 globalmente via `builds.hex.pm` usando o seguinte esquema de URL:
 
-  https://builds.hex.pm/builds/elixir/${versão-do-elixir}-otp-${versão-do-otp}.zip
+    https://builds.hex.pm/builds/elixir/${versão-do-elixir}-otp-${versão-do-otp}.zip
 
 Por exemplo, para usar o Elixir v1.13.3 com Erlang/OTP 24.x, use:
 
-  https://builds.hex.pm/builds/elixir/v1.13.3-otp-24.zip
+    https://builds.hex.pm/builds/elixir/v1.13.3-otp-24.zip
 
 Para usar a versão noturna de uma determinada versão do Erlang/OTP (como a 25),
 use:
 
-  https://builds.hex.pm/builds/elixir/main-otp-25.zip
+    https://builds.hex.pm/builds/elixir/main-otp-25.zip
 
 Para obter uma lista de todas as compilações, use:
 
-  https://builds.hex.pm/builds/elixir/builds.txt
+    https://builds.hex.pm/builds/elixir/builds.txt
 
 ## Compilando a partir do código-fonte
 
 Você pode baixar e compilar o Elixir em alguns passos.
-O primeiro é [instalar o Erlang](/install.html#installing-erlang).
+O primeiro é [instalar o Erlang](#instalando-o-erlang).
 Você também precisará ter o [make](https://www.gnu.org/software/make/)
 instalado.
 
@@ -268,7 +268,7 @@ se você estiver usando o Windows,
 Após a compilação, você estará pronto para executar os comandos `elixir` e `iex`
 a partir do diretório `bin`.
 É recomendável
-[adicionar o caminho do diretório bin do Elixir à sua variável de ambiente PATH](#setting-path-environment-variable)
+[adicionar o caminho do diretório bin do Elixir à sua variável de ambiente PATH](#configurando-a-variável-de-ambiente-path)
 para facilitar o desenvolvimento.
 
 Caso você queira se aventurar, também é possível compilar a partir do branch
@@ -295,7 +295,7 @@ Após a instalação do Erlang, você poderá abrir a linha de comando (ou promp
 comando) e verificar a versão do Erlang digitando `erl -s erlang halt`.
 Você verá informações semelhantes a:
 
-  Erlang/OTP {{ stable.minimum_otp }} [64-bit] [smp:2:2] [...]
+    Erlang/OTP {{ stable.minimum_otp }} [64-bit] [smp:2:2] [...]
 
 Observe que, dependendo de como você instalou o Erlang, os binários do Erlang
 podem não estar disponíveis no seu PATH.
