@@ -6,8 +6,8 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/elixir-lang/elixir/blob/-/LICENSE
 
-source_url: https://github.com/elixir-lang/elixir/blob/main/lib/elixir/pages/getting-started/introduction.md
-revision: c710b2afb7e06f67c5fe70bb8bbf9fe17cdd9945
+source_url: https://github.com/elixir-lang/elixir/blob/v1.19.5/lib/elixir/pages/getting-started/introduction.md
+revision: bd68532c27434b159ba414c22ef891ded18b6054
 status: ready
 ---
 
