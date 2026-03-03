@@ -6,8 +6,8 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/elixir-lang/elixir/blob/-/LICENSE
 
-source_url: https://github.com/elixir-lang/elixir/blob/main/lib/elixir/pages/getting-started/pattern-matching.md
-revision: dd45d9666fe10a05b9e917692a16e774a50c0a6e
+source_url: https://github.com/elixir-lang/elixir/blob/v1.19.5/lib/elixir/pages/getting-started/pattern-matching.md
+revision: f9966230ee2aa1735847a115d62192b4fcd9d796
 status: ready
 ---
 
