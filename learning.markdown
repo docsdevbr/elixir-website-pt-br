@@ -226,8 +226,8 @@ não seja apenas rápido, mas também resiliente a erros e fácil de escalar.
 
 Este livro pretende ser um pequeno guia sobre como ser o médico do Erlang em
 tempos de guerra.
-É, antes de tudo, uma coleção de dicas e truques para ajudar a entender a origem
-das falhas, e um dicionário de diferentes trechos de código e práticas que
+É, antes de tudo, uma coleção de dicas e truques para entender a origem das
+falhas, e um dicionário de diferentes trechos de código e práticas que
 auxiliaram pessoas desenvolvedoras a depurar sistemas de produção construídos em
 Erlang.
 
