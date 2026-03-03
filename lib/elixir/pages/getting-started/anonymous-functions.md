@@ -6,8 +6,8 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/elixir-lang/elixir/blob/-/LICENSE
 
-source_url: https://github.com/elixir-lang/elixir/blob/main/lib/elixir/pages/getting-started/anonymous-functions.md
-revision: c80fc6da1accfdbef4c3499ee8812d6e14a7303f
+source_url: https://github.com/elixir-lang/elixir/blob/v1.19.5/lib/elixir/pages/getting-started/anonymous-functions.md
+revision: f9966230ee2aa1735847a115d62192b4fcd9d796
 status: ready
 ---
 
