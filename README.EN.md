@@ -59,4 +59,4 @@ The original work was translated from English into Brazilian Portuguese.
 
 [readme-pt-br]: README.md
 
-[sponsor]: https://pt.docs.dev.br/sponsor.html
+[sponsor]: https://en.docs.dev.br/sponsor.html
