@@ -119,8 +119,8 @@ usados para representar o caractere `é`.
 > antes de entrar no `iex` (`iex.bat`).
 
 Além de definir caracteres, o UTF-8 também fornece o conceito de grafemas.
-Grafemas podem consistir em múltiplos caracteres que são frequentemente
-percebidos como um só.
+Grafemas podem consistir em múltiplos caracteres frequentemente percebidos como
+um só.
 Por exemplo, o [emoji da bombeira](https://emojipedia.org/woman-firefighter/) é
 representado como a combinação de três caracteres: o emoji da mulher (👩), um
 conector oculto de largura zero e o emoji do caminhão de bombeiros (🚒).
