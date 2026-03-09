@@ -6,7 +6,7 @@
 # The original work was translated from English into Brazilian Portuguese.
 # https://github.com/elixir-lang/elixir/blob/-/LICENSE
 
-source_url: https://github.com/elixir-lang/elixir/blob/main/lib/elixir/CHANGELOG.md
+source_url: https://github.com/elixir-lang/elixir/blob/main/CHANGELOG.md
 revision: 0df45fdba16e6ab8f59a30e9f0c1e281a24c7ef2
 status: ready
 ---
